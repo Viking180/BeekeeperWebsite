@@ -1,0 +1,29 @@
+.textfeld {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    
+    position: relative;
+    left: 500px;
+    top: auto;
+}
+body {
+
+}
+.Headpart {
+    background-color: aqua;
+    background-size: cover;
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+
+}
+.headline {
+    background-color: transparent;
+    height: auto;
+    position: relative;
+    left: 650px;
+    top: 0px;
+}
