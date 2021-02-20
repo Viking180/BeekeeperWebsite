@@ -35,14 +35,14 @@ body {
 .subButton{
     width: 70px;
     height: 30px;
-    background-color: transparent;
-    border-color: transparent;
     border-radius: 15px;
-    border-collapse: separate;
     position: relative;
     left: 80%;
     top: 5px;
     font-size: medium;
+    border-collapse: separate;
+    background-color: transparent;
+    border-color: transparent;
 }
 .backgroundPage{
     top: 140px;
@@ -62,5 +62,9 @@ iframe{
     transform: translateX(-50%);
     
     width: 80vw;
+    height:100vh;
+}
+footer{
 
+    bottom: 0px;
 }
