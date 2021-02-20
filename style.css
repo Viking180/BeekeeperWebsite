@@ -10,7 +10,7 @@
 body {
     border-collapse: separate;
 }
-.Headpart {
+.banner {
     background-color: #BBA02A;
     background-size: cover;
     
@@ -43,4 +43,15 @@ body {
     left: 80%;
     top: 5px;
     font-size: medium;
+}
+.backgroundPage{
+    top: 140px;
+    left: 0px;
+    position: absolute;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
 }
