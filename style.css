@@ -49,9 +49,18 @@ body {
     left: 0px;
     position: absolute;
     background-color: white;
-    background-position: center;
     background-size: cover;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     overflow: hidden;
+}
+iframe{
+    position: absolute;
+    background-size: cover;
+    height: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 80vw;
+
 }

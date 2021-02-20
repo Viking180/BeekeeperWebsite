@@ -10,18 +10,22 @@
         <section class="banner">
             <!--The section is the Head bar with Icon and buttons-->
                 
-            <h1 class="headline">Imkerverein Solingen</h1>
+            <h1 class="headline" onclick="setURL('welcomepage.html')">Imkerverein Solingen</h1>
             <div>
-                <Button class="subButton" OnClick="openPage('page 1')">sub1</Button>
+                <Button class="subButton" OnClick="setURL('impressum.html')">sub1</Button>
                 <Button class="subButton">sub2</Button>
                 <Button class="subButton">sub3</Button>
                 <Button class="subButton">sub4</Button>
             </div>
 
         </section>
+        
         <div class="backgroundPage">
-            <iframe src="welcomepage.html" frameborder="0"></iframe>
+            <iframe id="iframe" src="welcomepage.html" frameborder="0"></iframe>
         </div>
-
+        <footer>
+            <span>text im footer</span>
+        </footer>
     </body>
 </html>
+
