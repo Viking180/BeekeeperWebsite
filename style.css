@@ -32,18 +32,18 @@ body {
     font-size: xx-large;
     font-weight: bold;
 }
+.buttons{
+    position: relative;
+    left: 100%;
+    width: fit-content;
+    transform: translateX(-100%);
+}
 .subButton{
     width: 70px;
     height: 30px;
-    border-radius: 15px;
-    position: relative;
-    left: 80%;
-    transform: translateX(-80%);
-    top: 5px;
     font-size: medium;
-    border-collapse: separate;
-    background-color: transparent;
-    border-color: transparent;
+    background: none;
+    border: none;
 }
 .backgroundPage{
     top: 140px;
