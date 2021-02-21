@@ -18,15 +18,15 @@ body {
     width: 100%;
     height: 140px;
     top: 0px;
-    left: 0px;
-    
-
+    left: 50%;
+    transform: translateX(-50%);
 }
 .headline {
     background-color: transparent;
     height: auto;
     position: relative;
-    left: 40%;
+    left: 50%;
+    transform: translateX(-50%);
     width: fit-content;
     top: 0px;
     font-size: xx-large;
@@ -38,6 +38,7 @@ body {
     border-radius: 15px;
     position: relative;
     left: 80%;
+    transform: translateX(-80%);
     top: 5px;
     font-size: medium;
     border-collapse: separate;
@@ -63,8 +64,8 @@ iframe{
     height:100vh;
     border-left-width: 5px;
     border-right-width: 5px;
-    border-left: rgb(202, 201, 191);
-    border-right: rgb(202, 201, 191);
+    border-left: rgb(224, 224, 224);
+    border-right: rgb(224, 224, 224);
 }
 footer{
 
