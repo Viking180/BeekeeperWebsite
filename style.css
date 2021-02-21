@@ -57,12 +57,14 @@ body {
 iframe{
     position: absolute;
     background-size: cover;
-    height: fit-content;
     left: 50%;
     transform: translateX(-50%);
-    
     width: 80vw;
     height:100vh;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-left: rgb(202, 201, 191);
+    border-right: rgb(202, 201, 191);
 }
 footer{
 

@@ -1,5 +1,10 @@
-body{
-    background-color: white;
+.subHeader{
     text-align: center;
-    
+    font-size: 30px;
+}
+.mainContent{
+    text-align: center;
+}
+body{
+    background-color: rgb(202, 201, 191);
 }
