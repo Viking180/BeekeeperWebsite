@@ -10,6 +10,14 @@
 body {
     border-collapse: separate;
 }
+.logo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100px;
+    width: auto;
+    left: 22%;
+}
 .banner {
     background-color: #BBA02A;
     background-size: cover;
@@ -34,12 +42,12 @@ body {
 }
 .buttons{
     position: relative;
-    left: 100%;
+    left: 90%;
     width: fit-content;
     transform: translateX(-100%);
 }
 .subButton{
-    width: 70px;
+    width: 100px;
     height: 30px;
     font-size: medium;
     background: none;

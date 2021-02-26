@@ -5,6 +5,55 @@
 .mainContent{
     text-align: center;
 }
-body{
-    background-color: rgb(224, 224, 224);
+span{
+    text-align: left;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.news{
+    position: absolute;
+    top: 250px;
+    left: 15%;
+    transform: translateX(-15%);
+    margin-left: 50px;
+    background-color: green;    
+    border-radius: 10px;
+    height: 150px;
+    width: 280px;
+}
+.news1{
+    position: absolute;
+    top: 250px;
+    right: 15%;
+    transform: translateX(-15%);
+    margin-left: 50px;
+    
+    background-color: green;    
+    border-radius: 10px;
+    height: 150px;
+    width: 280px;
+}
+.news2{
+    position: absolute;
+    top: 450px;
+    left: 15%;
+    transform: translateX(-15%);
+    margin-left: 50px;
+    
+    background-color: green;    
+    border-radius: 10px;
+    height: 150px;
+    width: 280px;
+}
+.news3{
+    position: absolute;
+    top: 450px;
+    right: 15%;
+    transform: translateX(-15%);
+    margin-left: 50px;
+    
+    background-color: green;    
+    border-radius: 10px;
+    height: 150px;
+    width: 280px;
 }
