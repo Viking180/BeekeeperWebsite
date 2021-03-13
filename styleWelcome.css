@@ -12,7 +12,7 @@ span{
     transform: translateX(-50%);
 }
 .news{
-    position: relative;
+    position: absolute;
     top: 250px;
     left: 15%;
     transform: translateX(-50%);
