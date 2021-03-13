@@ -42,7 +42,7 @@ body {
 }
 .buttons{
     position: relative;
-    left: 90%;
+    left: 80%;
     width: fit-content;
     transform: translateX(-50%);
 }
