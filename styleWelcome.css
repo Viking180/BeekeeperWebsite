@@ -3,7 +3,8 @@
     font-size: 30px;
 }
 .mainContent{
-    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
 }
 span{
     text-align: left;
@@ -11,10 +12,10 @@ span{
     transform: translateX(-50%);
 }
 .news{
-    position: absolute;
+    position: relative;
     top: 250px;
     left: 15%;
-    transform: translateX(-15%);
+    transform: translateX(-50%);
     margin-left: 50px;
     background-color: green;    
     border-radius: 10px;
@@ -25,7 +26,7 @@ span{
     position: absolute;
     top: 250px;
     right: 15%;
-    transform: translateX(-15%);
+    transform: translateX(-50%);
     margin-left: 50px;
     
     background-color: green;    
@@ -37,7 +38,7 @@ span{
     position: absolute;
     top: 450px;
     left: 15%;
-    transform: translateX(-15%);
+    transform: translateX(-50%);
     margin-left: 50px;
     
     background-color: green;    
@@ -49,7 +50,7 @@ span{
     position: absolute;
     top: 450px;
     right: 15%;
-    transform: translateX(-15%);
+    transform: translateX(-50%);
     margin-left: 50px;
     
     background-color: green;    

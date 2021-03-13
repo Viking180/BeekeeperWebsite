@@ -44,7 +44,7 @@ body {
     position: relative;
     left: 90%;
     width: fit-content;
-    transform: translateX(-100%);
+    transform: translateX(-50%);
 }
 .subButton{
     width: 100px;
