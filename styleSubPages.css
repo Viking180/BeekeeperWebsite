@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+    width: 800px;
+}
+.subHeader{
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    font-size: 40px;
+}
+.content{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    width: fit-content;
+    position: absolute;
+    text-align: left;
+    display: inline-block;
+}
+embed{
+    color: black;
+    font-size: larger;
+}
